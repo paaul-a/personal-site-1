@@ -8,10 +8,6 @@ body {
   padding: 6px;
 }
 
-.active {
-  color:white
-}
-
 .topnav a {
   float: right;
   margin: 5px;
@@ -39,36 +35,31 @@ body {
 
 }
 
-.intro h1 {
-  color: white;
-  margin:5px;
-  padding:6px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.intro {
-  display: flex;
+.portfolio {
+  display:flex;
   align-items: center;
 }
-.intro p {
-  color: white;
+
+.portfolio h2 {
+  color:white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size:x-large;
+  float: left;
+  margin: 5px;
+  padding: 6px;
+}
+
+.portfolio p {
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
   float:left;
   margin: 5px;
-  padding: 25px;
+  padding: 6px;
+
 }
 
-
-.intro img {
-  width:350px;
+.portfolio img {
+  width: 270px;
   float:right;
-  padding:8px;
-  margin: 30px;
-}
-
-.bottomnav {
+  margin-right: 30px;
 
 }
-
-
