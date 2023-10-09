@@ -34,37 +34,21 @@ body {
   font-weight: bold;
 
 }
-
-.intro h1 {
-  color: white;
-  margin:5px;
-  padding:6px;
+.about h2 {
+  color:white;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 6px;
+  padding: 5px;
+
 }
 
-.intro {
-  display: flex;
-  align-items: center;
-}
-.intro p {
-  color: white;
+.about article {
+  color:white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size:x-large;
-  float:left;
-  margin: 5px;
-  padding: 25px;
+  margin: 6px;
+  padding: 5px;
 }
 
-
-.intro img {
-  width:350px;
-  float:right;
-  padding:8px;
-  margin: 30px;
+.about img {
+  
 }
-
-.bottomnav {
-
-}
-
-
