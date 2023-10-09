@@ -34,21 +34,66 @@ body {
   font-weight: bold;
 
 }
+
+.about {
+  display: flex;
+  align-items: center;
+}
+
+
 .about h2 {
   color:white;
   font-family: Arial, Helvetica, sans-serif;
   margin: 6px;
   padding: 5px;
+  float: left;
 
 }
 
 .about article {
   color:white;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 6px;
+  margin: 3px;
   padding: 5px;
+  float: left;
 }
 
 .about img {
+  width: 250px;
+  float: right;
+  padding: 3px;
+  margin: 30px;
+
+}
+
+.about2 {
+  display:flex;
+  align-items: center;
+}
+
+.about2 h2 {
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 6px;
+  padding: 5px;
+  float: left;
+}
+
+.about2 article {
+  color:white;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 3px;
+  padding: 5px;
   
 }
+
+.about2 img {
+  float:right;
+  width: 250px;
+  padding: 3px;
+  margin: 30px;
+
+}
+
+
