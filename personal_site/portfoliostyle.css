@@ -2,6 +2,14 @@ body {
   background-color: black;
 }
 
+#header2 {
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  margin: 2%;
+  margin-top: 10%;
+}
+
 .topnav {
   position:fixed;
   width:99vw;
@@ -45,6 +53,8 @@ body {
 
 }
 
+
+
 .portfolio {
   display:flex;
   align-items: center;
@@ -54,16 +64,18 @@ body {
   color:white;
   font-family: Arial, Helvetica, sans-serif;
   float: left;
-  margin: 5px;
+  margin: 2%;
   padding: 6px;
+  margin-top: -10%;
 }
 
 .portfolio p {
   color:white;
   font-family: Arial, Helvetica, sans-serif;
   float:left;
-  margin: 5px;
+  margin: 2%;
   padding: 6px;
+  margin-top:-4%;
 
 }
 
@@ -71,10 +83,11 @@ body {
   width: 270px;
   float:right;
   margin-right: 30px;
+  margin-top:-2%;
 
 }
 
-.portfolio2 h2 {
+/* .portfolio2 h2 {
   color:white;
   font-family: Arial, Helvetica, sans-serif;
   float: left;
@@ -88,4 +101,4 @@ body {
   float:left;
   margin: 5px;
   padding: 6px;
-}
+} */
